@@ -1,5 +1,10 @@
 $('#group2').on('click', 'button', function (event) {
+
     var userChoice = (this.id);
+    checkGame(userChoice);
+});
+
+function checkGame(userChoice){
     var computerChoice = Math.random();
     if (computerChoice < 0.34) {
         //ROCK
@@ -44,7 +49,7 @@ $('#group2').on('click', 'button', function (event) {
                 break;
         }
     }
-});
+}
 
 
 let objectEnum = {

@@ -1,31 +1,28 @@
-$('#group2').on('click', 'button', function (event) {
-    var userChoice = (this.id);
+function checkGame(userChoice) {
     var computerChoice = Math.random();
+    var result = false;
     if (computerChoice < 0.34) {
         //ROCK
         switch (userChoice) {
             case objectEnum.PAPER:
-                alert('won');
+                result = true;
                 break;
             case objectEnum.SCISSORS:
-                alert('loose')
+                break;
             default:
-                alert('draw')
                 break;
         }
-
-    } else if (computerChoice <= 0.67) {
+    }
+     else if (computerChoice <= 0.67) {
         //PAPER
         computerChoice = objectEnum.PAPER;
         switch (userChoice) {
             case objectEnum.SCISSORS:
-                alert('won');
+                result = true;
                 break;
             case objectEnum.PAPER:
-                alert('loose')
                 break;
             default:
-                alert('draw')
                 break;
         }
     } else {
@@ -34,21 +31,23 @@ $('#group2').on('click', 'button', function (event) {
 
         switch (userChoice) {
             case objectEnum.ROCK:
-                alert('won');
+                result = true;
                 break;
             case objectEnum.PAPER:
-                alert('loose')
                 break;
             default:
-                alert('draw')
                 break;
         }
     }
-});
+    return result;
 
+}
 
-let objectEnum = {
-    ROCK: 'rock',
-    PAPER: 'paper',
-    SCISSORS: 'scissors'
+ let objectEnum = {
+     ROCK: 'rock',
+     PAPER: 'paper',
+     SCISSORS: 'scissors'
+ }
+ module.exports = {
+    chck: checkGame
 }

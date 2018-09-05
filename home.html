@@ -13,12 +13,21 @@
     <div class="jumbotron">
         <div class="btn-group" id="group2" role="group" class="container">
             <button id="rock" class="btn btn-default">Rock</button>
-            <button id="paper"  class="btn btn-default">Paper</button>
-            <button id="scissors"  class="btn btn-default">Scissors</button>
+            <button id="paper" class="btn btn-default">Paper</button>
+            <button id="scissors" class="btn btn-default">Scissors</button>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="build/bundle.js"></script>
+    <script src="src/game.js"></script>
+    <script>
+        $('#group2').on('click', 'button', function (event) {
+            var userChoice = (this.id);
+            if(checkGame(userChoice)) alert('win');
+            else alert('loose');
+        });
+
+    </script>
 </body>
 
 </html>

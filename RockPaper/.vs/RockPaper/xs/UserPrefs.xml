@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{E134B1FB-0DA3-4984-9F81-4BB87B6A2DF5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RockPaper/ViewModel/GameViewModel.cs">
+    <Files>
+      <File FileName="RockPaper/ViewModel/GameViewModel.cs" Line="35" Column="42" />
+      <File FileName="RockPaper/ViewModel/BaseViewModel.cs" Line="10" Column="9" />
+      <File FileName="RockPaper/View/GamePage.xaml" Line="7" Column="90" />
+      <File FileName="RockPaper/View/GamePage.xaml.cs" Line="12" Column="10" />
+      <File FileName="RockPaper/App.xaml.cs" Line="15" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.RockPaper.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RockPaper.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A0126261-3666-49F6-8B67-7956C5C95351" />
+  <MultiItemStartupConfigurations />
+</Properties>

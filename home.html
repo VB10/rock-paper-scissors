@@ -23,8 +23,10 @@
     <script>
         $('#group2').on('click', 'button', function (event) {
             var userChoice = (this.id);
-            checkGame(userChoice);
+            if(checkGame(userChoice)) alert('win');
+            else alert('loose');
         });
+
     </script>
 </body>
 

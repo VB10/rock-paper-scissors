@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  x:Class="RockPaper.View.GamePage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" Margin="10,0,10,0">
+            <Button Text="Rock"  Command="{Binding objectCommand}" HorizontalOptions="FillAndExpand" CommandParameter="R" BackgroundColor="Teal" TextColor="White"/>
+            <Button Text="Paper" Command="{Binding objectCommand}" HorizontalOptions="FillAndExpand" CommandParameter="P" BackgroundColor="Red"  TextColor="White"/>
+            <Button Text="Scissors" Command="{Binding objectCommand}" CommandParameter="S" HorizontalOptions="FillAndExpand" BackgroundColor="Green"  TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

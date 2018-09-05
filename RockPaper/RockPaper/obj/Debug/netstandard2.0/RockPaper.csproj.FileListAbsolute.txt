@@ -1,0 +1,12 @@
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.csprojAssemblyReference.cache
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/View/GamePage.xaml.g.cs
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.csproj.CoreCompileInputs.cache
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.AssemblyInfoInputs.cache
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.AssemblyInfo.cs
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/bin/Debug/netstandard2.0/RockPaper.deps.json
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/bin/Debug/netstandard2.0/RockPaper.dll
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/bin/Debug/netstandard2.0/RockPaper.pdb
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.dll
+/Users/vb/rock-paper-scissors/RockPaper/RockPaper/obj/Debug/netstandard2.0/RockPaper.pdb

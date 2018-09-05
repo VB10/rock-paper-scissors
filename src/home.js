@@ -1,53 +1,43 @@
-$('#group2').on('click', 'button', function (event) {
-
-    var userChoice = (this.id);
-    checkGame(userChoice);
-});
-
-function checkGame(userChoice){
+function checkGame(userChoice) {
     var computerChoice = Math.random();
     if (computerChoice < 0.34) {
         //ROCK
         switch (userChoice) {
             case objectEnum.PAPER:
-                alert('won');
-                break;
+                return true;
             case objectEnum.SCISSORS:
-                alert('loose')
+                break;
             default:
-                alert('draw')
                 break;
         }
+        return false;
+
 
     } else if (computerChoice <= 0.67) {
         //PAPER
         computerChoice = objectEnum.PAPER;
         switch (userChoice) {
             case objectEnum.SCISSORS:
-                alert('won');
-                break;
+                return true;
             case objectEnum.PAPER:
-                alert('loose')
                 break;
             default:
-                alert('draw')
                 break;
         }
+        return false;
     } else {
         computerChoice = objectEnum.SCISSORS;
         //SCISSORS
 
         switch (userChoice) {
             case objectEnum.ROCK:
-                alert('won');
-                break;
+                return true;
             case objectEnum.PAPER:
-                alert('loose')
                 break;
             default:
-                alert('draw')
                 break;
         }
+        return false;
     }
 }
 
@@ -56,4 +46,10 @@ let objectEnum = {
     ROCK: 'rock',
     PAPER: 'paper',
     SCISSORS: 'scissors'
+}
+module.exports = {
+    sayHello: function () {
+        return 'a';
+    },
+    chck: checkGame
 }
